@@ -8,7 +8,7 @@ import Pogoda from  './components/Pogoda';
 
 import {Routes, Route} from 'react-router-dom';
 import Footer from  './components/Footer';
-
+import Content from "./components/content.jsx"
 
 const App = () => {
   return (
@@ -25,10 +25,8 @@ const App = () => {
    
       
     </Routes>
-
-
-   
-
+    <Content/>
+  
     <Footer/>
 
 
