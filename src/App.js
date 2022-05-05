@@ -8,7 +8,7 @@ import Pogoda from  './components/Pogoda';
 
 import {Routes, Route} from 'react-router-dom';
 import Footer from  './components/Footer';
-
+import Main from './components/Main';
 
 const App = () => {
   return (
@@ -25,7 +25,10 @@ const App = () => {
    
       
     </Routes>
-
+   
+  <div className="container">
+       <Main/>
+  </div>
 
    
 
