@@ -1,12 +1,39 @@
-import logo from './logo.svg';
 import * as React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
 
-function App() {
+import Header from  './components/Header';
+import Home from  './Home';
+import Catalog from  './components/Catalog';
+import Pogoda from  './components/Pogoda';
+
+import {Routes, Route} from 'react-router-dom';
+import Footer from  './components/Footer';
+
+
+const App = () => {
   return (
+    
     <>
-    div
+    <Header /> 
+         
+    
+    <Routes>
+    <Route path='/' element={<Home />}/>
+      
+      <Route path='/pogoda' element={<Pogoda />}/>
+      <Route path='/cat' element={<Catalog />}/>
+   
+      
+    </Routes>
+
+
+   
+
+    <Footer/>
+
+
+    
+    
     </>
   );
 }
