@@ -2,7 +2,7 @@ import * as React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Carousel } from 'react-bootstrap';
 import bike1 from './img/bike1.png';
-import bike2 from './img/bike2.png';
+
 import bike3 from './img/bike3.png';
 
 
@@ -19,10 +19,6 @@ const Car = ()=>{
             alt="First slide"
             /></Carousel.Item>
 
-<Carousel.Item interval={1000} style={{'height':'600px'}}><img  className='d-block w-100'
-            src={bike2}
-            alt="First slide"
-            /></Carousel.Item>
 
 <Carousel.Item interval={1000} style={{'height':'600px'}}><img className='d-block w-100'
             src={bike3}
