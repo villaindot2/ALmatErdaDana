@@ -14,13 +14,13 @@ const Car = ()=>{
       <>
       
      <Carousel>
-     <Carousel.Item interval={1000} style={{'height':'600px'}}><img className='d-block w-100'
+     <Carousel.Item interval={1000} style={{'height':'100vh'}}><img className='d-block w-100'
             src={bike1}
             alt="First slide"
             /></Carousel.Item>
 
 
-<Carousel.Item interval={1000} style={{'height':'600px'}}><img className='d-block w-100'
+<Carousel.Item interval={1000} style={{'height':'100vh'}}><img className='d-block w-100'
             src={bike3}
             alt="First slide"
             /></Carousel.Item>

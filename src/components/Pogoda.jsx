@@ -20,13 +20,15 @@ class Pogoda extends React.Component {
 
 gettingWeather = async(e) =>{
     e.preventDefault();
-   
+    
 const api_url = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=Almaty&APPID=3914a1e24558b8caf57061a455df858d`);
 const data = await api_url.json();
 console.log(data);
 
+  
 
 this.setState({
+    
    temp: data.main.temp,
    city: data.name,
    country :data.sys.country,
@@ -37,8 +39,10 @@ this.setState({
 });
     }
     render(){
+
+        
     return (
-         
+        
         <>
        
        <div className='wrapper'>
@@ -54,7 +58,7 @@ this.setState({
             temp={this.state.temp}
             city={this.state.city}
             country={this.state.country}
-            pressure={this.state.pressure} 
+            pressure={this.state.pressure}
             speed ={this.state.speed} 
             />
                    </div>

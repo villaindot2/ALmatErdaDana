@@ -26,21 +26,13 @@ export default function Header(){
     <Nav.Link href='/'>Home</Nav.Link>
     <Nav.Link href='/pogoda'>Weather</Nav.Link>
 
-     
-      
     </Nav>
     <Nav>
-                            <Button variant='secondary' onClick={handleShow}>Contacts</Button>
-                            
-                            
-                            
-                        </Nav>
+        <Button variant='secondary' onClick={handleShow}>Contacts</Button>
+      </Nav>
     <Nav>
-      <Nav.Link href='/cat'>Catalog</Nav.Link>
-      
-      
-      
-      
+      <Nav.Link href='/cat'>Contact</Nav.Link>
+
     </Nav>
   </Navbar.Collapse>
   </Container>
@@ -57,9 +49,6 @@ export default function Header(){
                 </Modal.Body>
             </Modal>
 
-           
-            
-            
             </>
     );
     }

@@ -3,12 +3,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Header from  './components/Header';
 import Home from  './Home';
-import Catalog from  './components/Catalog';
+
 import Pogoda from  './components/Pogoda';
 
 import {Routes, Route} from 'react-router-dom';
 import Footer from  './components/Footer';
-import Content from "./components/content.jsx"
+import Catalog from "./components/Catalog"
 
 const App = () => {
   return (
@@ -27,7 +27,7 @@ const App = () => {
    
       
     </Routes>
-    <Content/>
+    
   
     <Footer/>
 

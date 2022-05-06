@@ -1,7 +1,7 @@
 import React from "react";
 import {Card, Button, Container,Table,Accordion} from "react-bootstrap"
 
-class content extends React.Component {
+class Content extends React.Component {
  constructor(props) { super(props);this.state = {}}
   clickB ()
   { 
@@ -14,10 +14,10 @@ class content extends React.Component {
   <Accordion.Item eventKey="0">
     <Accordion.Header>Условия проката</Accordion.Header>
     <Accordion.Body>
-    1 велосипед - одно удостоверение (только оригинал)
-В случае отсутствия удостоверения Вы можете предоставить паспорт или водительское удостоверение в качестве залога. В случае отсутствия данных документов Вы можете предоставить денежный залог в размере стоимости единицы единицы товара, которую Вы берете в аренду. 
-Для детей и подростков младше 18 лет выдача прокатного инвентаря производится под ответственность родителя или опекуна (требуется его личное присутствие и удостоверение личности)
-Если Вы берете велосипеды и другие товары на прокат через юридическое лицо (на группу лиц), Вы можете использовать доверительное письмо на ответственного человека и его удостоверение личности. 
+    1 bike - one ID (original only)
+If you don't have a valid ID, you can provide your passport or driver's license as a deposit. In the absence of these documents, you can provide a cash deposit in the amount of the cost of a unit of a unit of goods that you rent.
+For children and adolescents under 18 years of age, the issuance of rental equipment is at the responsibility of a parent or guardian (his personal presence and ID is required)
+If you rent bicycles and other goods through a legal entity (for a group of persons), you can use a letter of trust for a responsible person and his identity card.
     </Accordion.Body>
   </Accordion.Item>
 </Accordion>
@@ -117,19 +117,10 @@ class content extends React.Component {
       </Card.Body>
     </Card>
 
-    <Card style={{ width: "18rem", background:"silver", margin: "10px" }}>
-      <Card.Img variant="top" src="https://i0.wp.com/electropowerbikes.com/wp-content/uploads/2018/02/HTB1lolgf.jpg?resize=700%2C470&ssl=1" />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Basic equipment.
-        </Card.Text>
-        <Button onClick={this.clickB} variant="primary">Rent</Button>
-      </Card.Body>
-    </Card>
+   
     </Container>
     );
 } }
 
-export default content;
+export default Content;
 
