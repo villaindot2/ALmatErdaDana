@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/AlmatErdaDana/static/css/main.8066a780.css",
+    "main.js": "/AlmatErdaDana/static/js/main.fe41b07f.js",
+    "static/js/787.6ad2f93a.chunk.js": "/AlmatErdaDana/static/js/787.6ad2f93a.chunk.js",
+    "static/media/bike1.png": "/AlmatErdaDana/static/media/bike1.9160ea674f4f244b95d8.png",
+    "static/media/bike3.png": "/AlmatErdaDana/static/media/bike3.500de50ff8a5b6646ddc.png",
+    "static/media/poligon.jpg": "/AlmatErdaDana/static/media/poligon.4e186be691d5ef74c29b.jpg",
+    "index.html": "/AlmatErdaDana/index.html",
+    "main.8066a780.css.map": "/AlmatErdaDana/static/css/main.8066a780.css.map",
+    "main.fe41b07f.js.map": "/AlmatErdaDana/static/js/main.fe41b07f.js.map",
+    "787.6ad2f93a.chunk.js.map": "/AlmatErdaDana/static/js/787.6ad2f93a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8066a780.css",
+    "static/js/main.fe41b07f.js"
+  ]
+}
